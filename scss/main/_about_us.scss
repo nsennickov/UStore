@@ -1,0 +1,49 @@
+.about-us{
+    margin: 0 auto;
+    height: 500px;
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    background-color: #aa9b75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-us_text{
+    width: 60%;
+    height: 50%;
+    border: 1px solid black;
+    position: relative;
+    h2{
+        position: absolute;
+        left: 50%;
+        top: -14%;
+        transform: translate(-50%, 0);
+        background-color: #aa9b75;
+        padding: 0 20px;
+    }
+    p{
+        font-size: 20px;
+        width: 80%;
+        margin: 10% auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .about-us_text{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .about-us_text{
+        width: 95%;
+        height: auto;
+        h2{
+            width: 50%;
+        }
+    }
+}
